@@ -1,0 +1,5 @@
+experimento,id_estudiante,semilla,huella_muestra,nombre,usa_pca,C,n_componentes_pca,n_columnas_modelo,accuracy,precision,recall,f1,roc_auc,ap,ap_train,tn,fp,fn,tp,alertas,iteraciones,costo_fp_brl,costo_fn_brl,costo_brl,umbral,class_weight,elegido
+A,01,1001,9e0cf0664d9d,"A. Sin PCA, C=1.0",False,1.0,,151,0.668571,0.120963,0.622535,0.202566,0.707449,0.159971,0.171945,3289,1606,134,221,1827,141,12848,4690,17538,0.5,balanced,True
+B,01,1001,9e0cf0664d9d,"B. PCA 90 %, C=1.0",True,1.0,15.0,142,0.639238,0.106394,0.585915,0.180087,0.660869,0.126596,0.148928,3148,1747,147,208,1955,164,13976,5145,19121,0.5,balanced,False
+C,01,1001,9e0cf0664d9d,"C. PCA 90 %, C=0.1",True,0.1,15.0,142,0.642095,0.106811,0.583099,0.180549,0.663703,0.129305,0.149248,3164,1731,148,207,1938,80,13848,5180,19028,0.5,balanced,False
+D,01,1001,9e0cf0664d9d,"D. PCA 90 %, C=10.0",True,10.0,15.0,142,0.636571,0.105637,0.585915,0.179002,0.660552,0.124469,0.149061,3134,1761,147,208,1969,246,14088,5145,19233,0.5,balanced,False
